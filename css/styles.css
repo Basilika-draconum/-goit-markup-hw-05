@@ -19,9 +19,9 @@ body{
     letter-spacing: 0.03em;;
 }
 .container{
-max-width: 1200px;
-margin:0 auto;
-padding: 0 15px;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 15px;
 }
 
 button{
@@ -31,7 +31,9 @@ button{
 a{
     text-decoration: none;
 }
-
+img{
+    display: block;
+}
 /* Header general */
 .header{
     color:var(--c-white);
@@ -208,6 +210,24 @@ margin-top: 50px;
 
 .doing-item:not(:last-child){
 margin-right: 30px;
+}
+.doing-item{
+    position:relative;
+}
+.doing-text{
+    position: absolute;
+    left:0;
+    bottom:0;
+
+    background:rgba(47, 48, 58, 0.8);
+    color:var(--c-white);
+    padding: 27px 0;
+    width: 100%;
+    font-weight: 700;
+    line-height: 1.1428;
+    text-align: center;
+    text-transform: uppercase;
+
 }
 /* Team */
 .team{
