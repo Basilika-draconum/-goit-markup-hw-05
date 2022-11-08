@@ -545,8 +545,7 @@ justify-content: center;
     top: 101%;
     left: 0;
     padding: 63px 24px;
-    transform: translateY(100%);
-    transition-property: transform;
+    transition-property: top;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     overflow: auto;
@@ -560,7 +559,6 @@ justify-content: center;
 }
 
 .works:hover .work-text{
-    transform: translateY(0);
     top: 0;
 }
 
