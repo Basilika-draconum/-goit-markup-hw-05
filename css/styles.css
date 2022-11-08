@@ -364,14 +364,30 @@ margin-right: 30px;
 
 }
 .close-button{
-position: absolute;
-top: 8px;
-right: 8px;
-background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 8px;
     width: 30px;
     height: 30px;
+    background: var(--c-white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.close-button::before,
+.close-button::after {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    content: "";
+    background-color: var(--primary-text-color);
+    width: 15px;
+    height: 2px;
+}
+.close-button::before{
+    transform: translate(-50%,-50%)rotate(-45deg);
+}
+.close-button::after     {
+    transform: translate(-50%, -50%)rotate(45deg);
 }
 /* Footer general */
 .footer{
