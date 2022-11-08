@@ -396,7 +396,7 @@ margin-right: 30px;
     background: var(--c-white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    
+
 }
 .close-button::before,
 .close-button::after {
@@ -537,15 +537,15 @@ justify-content: center;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-appear{
-position: relative;
-overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 .work-text{
     position: absolute;
     top: 0;
     left: 0;
     padding: 63px 24px;
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
